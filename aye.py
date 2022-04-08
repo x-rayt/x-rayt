@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return"Привет, мир!"
+  return "Диман!!!"
   
   
 app.run(port='8000')
