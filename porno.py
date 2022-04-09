@@ -6,4 +6,5 @@ class Scraper:
         self.site=site
 
     def scrape(self):
-        pass
+        r=urliib.request\.urlopen(self.site)
+        html=r.read()
